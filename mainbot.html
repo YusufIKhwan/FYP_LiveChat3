@@ -9,8 +9,8 @@
 </head>
 <body>
     <div id="container">
-        <div id="dot"></div>
-        <div id="dot"></div>
+        <div id="dot1"></div>
+        <div id="dot2"></div>
         <div id="screen">
             <div id="header">ONLINE CHATBOT</div>
             <div id="messageDisplaySection">
@@ -18,12 +18,13 @@
                 <div class="chat botMessages">Hello There</div>
 
                 <!--users messages-->
-                <div id="messageContainer">
+                <div id="messagesContainer">
                 <div class="chat usersMessages">General Kenobi</div>
             </div>
         </div>
+            <!--meesages input field-->
             <div id="userInput">
-                <input type="text" name="messages" id="messages" autocomplete="DFF" placeholder="Type Your Message Here" required>
+                <input type="text" name="messages" id="messages" autocomplete="OFF" placeholder="Type Your Message Here" required>
                 <input type="submit" value="Send" id="send" name="send">`
             </div>
             
@@ -31,11 +32,11 @@
     </div>
 
 
-    <!--JQuery CDN-->
-    <script src=""></script>
+    <!--JQuery CDN
+    <script src=""></script> -->
     
     <!--JQuery CDN-->
-    <script>
+    <!--<script>
         $(document).ready(function(){
             if($("#messages").val()){
                 $("send.").css("display","block");
@@ -43,6 +44,6 @@
                 $("send").css("display","none");
             }
         });
-    </script>
+    </script> -->
 </body>
 </html>
