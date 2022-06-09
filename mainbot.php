@@ -24,7 +24,7 @@
         </div>
             <!--meesages input field-->
             <div id="userInput">
-                <input type="text" name="messages" id="messages" autocomplete="OFF" placeholder="Type Your Message Here" required>
+                <input type="text" name="messages" id="messages" autocomplete="OFF" placeholder="Type Here" required>
                 <input type="submit" value="Send" id="send" name="send">`
             </div>
             
@@ -32,11 +32,11 @@
     </div>
 
 
-    <!--JQuery CDN
+    JQuery CDN
     <script src=""></script> -->
     
     <!--JQuery CDN-->
-    <!--<script>
+    <script>
         $(document).ready(function(){
             if($("#messages").val()){
                 $("send.").css("display","block");
@@ -44,6 +44,6 @@
                 $("send").css("display","none");
             }
         });
-    </script> -->
+    </script> 
 </body>
 </html>
